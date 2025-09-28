@@ -6,7 +6,7 @@ Date: 27 September 2025
 */}
 
 import calendar from "../src/assets/calendar.jpg"
-import gallery from "../src/assets/gallery.jpg"
+import gallery from "../src/assets/gallery.JPG"
 import tutorial from "../src/assets/tutorial.jpg"
 
 /*This function defines the Projects page */
