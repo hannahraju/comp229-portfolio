@@ -4,6 +4,7 @@ Student Name: Hannah Raju
 Student ID: 301543568
 Date: 27 September 2025
 */}
+import resume from "../src/assets/resume.pdf"
 
 export default function Resume() {
     return(
