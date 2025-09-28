@@ -23,7 +23,7 @@ export default function Layout(){
                 {/* Defines global page navigation */}
                 <Link to="/"> Home </Link> | <Link to="/about">About Me </Link> 
                 |<Link to="/services">Services </Link>| <Link
-                to="/projects">Projects </Link>{/*| <Link to="/contact">Contact </Link> */}
+                to="/projects">Projects </Link>| <Link to="/contact">Contact </Link>
             </nav>
             
             

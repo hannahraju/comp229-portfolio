@@ -13,10 +13,7 @@ import About from './src/about'
 import Services from './src/services'
 import Projects from './src/projects'
 import Resume from './src/resume'
-
-
-
-{/*import Contact from './src/contact'*/}
+import Contact from './src/contact'
 
 
 const MainRouter = () => {
@@ -28,7 +25,7 @@ const MainRouter = () => {
             <Route exact path="/about" element={<About />} />
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/projects" element={<Projects />} />
-            {/*<Route exact path="/contact" element={<Contact />} />*/}
+            <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/resume" element={<Resume />} />
             
         </Routes>
