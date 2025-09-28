@@ -7,7 +7,6 @@ Date: 27 September 2025
 
 import me from '../src/assets/me.jpg'
 import { Link } from 'react-router-dom'
-import resume from '../src/assets/resume.pdf'
 
 /*This function defines the About Me page */
 export default function About() {
