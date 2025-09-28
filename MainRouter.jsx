@@ -11,8 +11,8 @@ import Home from './components/Home'
 import Layout from './components/Layout'
 
 
-{/*import About from './src/about'
-import Contact from './src/contact'
+import About from './src/about'
+{/*import Contact from './src/contact'
 import Services from './src/services'
 import Projects from './src/projects'
 import Resume from './src/resume'*/}
@@ -24,8 +24,8 @@ const MainRouter = () => {
         <Layout/>
         <Routes>
             <Route exact path="/" element={<Home />} />
-            {/*<Route exact path="/about" element={<About />} />
-            <Route exact path="/services" element={<Services />} />
+            <Route exact path="/about" element={<About />} />
+            {/*<Route exact path="/services" element={<Services />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/resume" element={<Resume />} />
