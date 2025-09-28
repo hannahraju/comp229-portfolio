@@ -17,13 +17,13 @@ export default function Layout(){
 
             
             <nav>
-                // Displays my logo above the nav bar*
+                {/* Displays my logo above the nav bar*/}
                 <img src={logo} alt="Logo"/>
                 <br/>
-                // Defines global page navigation
+                {/* Defines global page navigation */}
                 <Link to="/"> Home </Link> | <Link to="/about">About Me </Link> 
-                {/*|<Link to="/services">Services </Link>| <Link
-                to="/projects">Projects </Link>| <Link to="/contact">Contact </Link> */}
+                |<Link to="/services">Services </Link>| <Link
+                to="/projects">Projects </Link>{/*| <Link to="/contact">Contact </Link> */}
             </nav>
             
             
