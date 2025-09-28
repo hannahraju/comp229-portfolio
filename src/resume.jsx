@@ -9,7 +9,7 @@ export default function Resume() {
     return(
         <div>
         <h2>Resume</h2>
-        <iframe src="../src/assets/my-resume.pdf" width="100%" height="1200px"/>
+        <iframe src="../public/my-resume.pdf" width="100%" height="1200px"/>
         </div>
     )
 }
